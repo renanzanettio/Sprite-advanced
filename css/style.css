@@ -1,0 +1,48 @@
+#anima-div1{
+    background: url("../imgs/sprite-multi_1.png") -0px -531px;
+    width: 120px;
+    height: 120px;
+    animation: anima-sprite1 1.0s steps(10) infinite;
+}
+
+@keyframes anima-sprite1{
+    100% {background-position-x: -1200px; }
+}
+
+#anima-div2{
+    top: 130px;
+    background: url("../imgs/sprite-multi_1.png") -0px -920px;
+    width: 120px;
+    height: 120px;
+    animation: anima-sprite2 1.0s steps(10) infinite;
+}
+
+@keyframes anima-sprite2{
+    100% {background-position-x: -1200px; }
+}
+
+#anima-div3{
+    margin-left: 150px;
+    margin-top: -245px;
+    background: url("../imgs/sprite-multi_1.png") -0px -1050px;
+    width: 120px;
+    height: 120px;
+    animation: anima-sprite3 1.0s steps(3) infinite;
+}
+
+@keyframes anima-sprite3{
+    100% {background-position-x: -360px; }
+}
+
+#anima-div4{
+    margin-left: 150px;
+    margin-top: 5px;
+    background: url("../imgs/sprite-multi_1.png") -0px -660px;
+    width: 120px;
+    height: 120px;
+    animation: anima-sprite4 1.0s steps(10) infinite;
+}
+
+@keyframes anima-sprite4{
+    100% {background-position-x: -1200px; }
+}
